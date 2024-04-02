@@ -1,2 +1,1 @@
-const periodIsLate = (last, today, cycleLength) =>
-	Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength
+const periodIsLate = (last, today, cycleLength) => today.getTime() - last.getTime() > cycleLength * 86400000
