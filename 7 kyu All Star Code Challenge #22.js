@@ -1,0 +1,1 @@
+const toTime = seconds => `${Math.trunc(seconds / 3600)} hour(s) and ${Math.trunc((seconds % 3600) / 60)} minute(s)`
