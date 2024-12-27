@@ -1,0 +1,1 @@
+const solve = (a, b) => [...a].filter(c => !b.includes(c)).join('') + [...b].filter(c => !a.includes(c)).join('')
