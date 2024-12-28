@@ -1,0 +1,1 @@
+const maxGap = numbers => Math.max(...numbers.sort((a, b) => a - b).map((n, i, arr) => i ? n - arr[i - 1] : 0))
